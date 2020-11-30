@@ -1,13 +1,14 @@
 # Marlin v.2.0.7.2 for Sapphire Plus (gen2) with upgraded direct extruder Mellow NF-BMG Aero V6
 
-this fork of firmware Marlin v.2.0.7.2 espescially prepared for 3D Printer TwoTrees Sapphire Plus (gen2) with two independent Z-axis (for each Z-axis have a dedicated driver) and with upgraded direct extruder Mellow NF-BMG Aero V6
+this fork of firmware Marlin v.2.0.7.2 espescially prepared for 3D Printer **TwoTrees Sapphire Plus** (gen2) with two independent Z-axis (for each Z-axis have a dedicated driver) and with upgraded direct extruder Mellow NF-BMG Aero V6
 Beware! It is not compatable with Sapphire Plus gen1 that used belt betwen two Z-axis motors and one driver for two z-axis motors or without direct extruder Mellow NF-BMG Aero V6.
 
+- tuned for direct extruder **Mellow NF-BMG Aero V6** and [this mount carrier bracket for Mellow NF-BMG Aero V6 direct extruder](https://cults3d.com/en/3d-model/tool/sapphire-plus-mount-for-mellow-nf-bmg-aero-direct-extruder)
 - enabled S_CURVE_ACCELERATION
 - Marlin color UI
 - enabled bed PID-control (PIDTEMPBED)
 - adjusted PID parameters for hotend and bed
-- tuned for direct extruder Mellow NF-BMG Aero V6
+
 
 
 
