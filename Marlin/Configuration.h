@@ -501,9 +501,9 @@
   #else
     // for auto calibration hotend temp on 250C execute "M303 E0 S250 C8 U" and "M500" for save in EEPROM
     //    also you can set fan speed for example 30% before calibration process "M106 S76"
-    #define DEFAULT_Kp  10.32
-    #define DEFAULT_Ki   0.51
-    #define DEFAULT_Kd  52.55
+    #define DEFAULT_Kp  10.20
+    #define DEFAULT_Ki   0.58
+    #define DEFAULT_Kd  45.18
   #endif
 #endif // PIDTEMP
 
@@ -1097,7 +1097,7 @@
 // @section extruder
 
 // For direct drive extruder v9 set to true, for geared extruder set to false.
-#define INVERT_E0_DIR true
+#define INVERT_E0_DIR false
 #define INVERT_E1_DIR false
 #define INVERT_E2_DIR false
 #define INVERT_E3_DIR false
@@ -1126,8 +1126,8 @@
 // @section machine
 
 // The size of the print bed
-#define X_BED_SIZE 295
-#define Y_BED_SIZE 295
+#define X_BED_SIZE 290
+#define Y_BED_SIZE 260
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
