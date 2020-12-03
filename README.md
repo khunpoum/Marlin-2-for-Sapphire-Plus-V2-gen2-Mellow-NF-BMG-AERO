@@ -8,9 +8,9 @@ Beware! It is not compatable with Sapphire Plus gen1 that used belt betwen two Z
 - Marlin color UI
 - enabled bed PID-control (PIDTEMPBED)
 - adjusted PID parameters for hotend and bed
+- UI black edition
 
-
-
+![UI](https://github.com/khunpoum/Marlin-2-for-Sapphire-Plus-V2-gen2-Mellow-NF-BMG-AERO/blob/main/marlin-black-ui.jpg?raw=true)
 
 
 # Marlin 3D Printer Firmware
